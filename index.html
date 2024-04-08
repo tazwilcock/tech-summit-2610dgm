@@ -1,0 +1,152 @@
+<head>
+  <!-- Title -->
+  <title>Tech Summit | Taz Wilcock</title>
+  <!-- Description and Author -->
+  <meta name="description" content="Tech Summit" />
+  <meta name="author" content="Taz Wilcock" />
+  <!-- UTF8 and Viewport Width -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+  <link rel="manifest" href="/site.webmanifest" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/styles.min.css" />
+
+  <!-- Typeface -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
+    rel="stylesheet"
+  />
+</head>
+<!-- HEAD TAG END -->
+
+<body>
+  <!-- HEADER -->
+  <div id="headerWrapper">
+    <header>
+      <a href="#"><img src="images/logo.png" alt="" /></a>
+    </header>
+    <!-- NAV -->
+
+    <div id="navWrapper">
+      <nav>
+        <button id="hamburgerBtn">
+          <span class="line top"></span>
+          <span class="line middle"></span>
+          <span class="line bottom"></span>
+        </button>
+        <ul id="primaryNav">
+          <li>
+            <a href="#">Sponsors</a>
+          </li>
+          <li><a href="#">Event Info</a></li>
+          <li class="active"><a href="#">Speakers</a></li>
+          <li><a href="#">Lodging</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+
+  <div id="mainWrapper">
+    <main>
+      <div class="hero">
+        <video autoplay muted playsinline loop width="800" height="300">
+          <source src="/media/herovideo-hb.webm" type="video/webm" />
+          <source src="/media/herovideo-hb.mp4" type="video/mp4" />
+        </video>
+        <div class="text-box">
+          <h1>Join Us In Squamish</h1>
+          <p>Purchase Tickets Here</p>
+        </div>
+      </div>
+
+      <section id="introduction">
+        <h2>Event Topics</h2>
+        <p>
+          This exciting tech conference covers everything from AI, robotics,
+          drone deliveries, privacy, space travel, and the potential for human
+          immortality. These are just a few mouthwatering topics that we expect
+          will dominate conversations at this year’s exciting tech conference.
+        </p>
+      </section>
+
+      <section id="speakers">
+        <h2>Speakers</h2>
+        <div class="grid-container">
+          <!-- Flip Card One -->
+          <div class="flip-card">
+            <div class="flip-card__front-side">
+              <img src="/images/jesse.png" alt="jesse way" />
+              <div>
+                <h3>Jesse Way</h3>
+                <p>Product Lead | Entrasta</p>
+              </div>
+            </div>
+            <div class="flip-card__back-side">
+              <h3>Jesse Way</h3>
+              <p>
+                User agent stylesheet proponent and unicyclist Jesse Way will be
+                sharing his thoughts on what A.I. will do to the family unit
+                within the next 20 years.
+              </p>
+            </div>
+          </div>
+
+          <!-- Flip Card Two -->
+          <div class="flip-card">
+            <div class="flip-card__front-side">
+              <img src="/images/angela.png" alt="jesse way" />
+              <div>
+                <h3>Angela Banks</h3>
+                <p>Computing | Anacapa</p>
+              </div>
+            </div>
+            <div class="flip-card__back-side">
+              <h3>Angela Banks</h3>
+              <p>
+                Renowned quantum computing expert and avid mountain climber, Dr.
+                Banks, will be delving into the transformative impact of
+                blockchain technology on global finance over the coming decade.
+              </p>
+            </div>
+          </div>
+
+          <!-- Flip Card Three -->
+          <div class="flip-card">
+            <div class="flip-card__front-side">
+              <img src="/images/mia.png" alt="jesse way" />
+              <div>
+                <h3>Mia Chen</h3>
+                <p>Sea Coder | Climate Serve</p>
+              </div>
+            </div>
+            <div class="flip-card__back-side">
+              <h3>Mia Chen</h3>
+              <p>
+                Acclaimed Sea Coder and passionate salsa dancer, Mia Chen, will
+                be exploring the profound effects of climate change on coral
+                reef ecosystems in our oceans.
+              </p>
+            </div>
+          </div>
+          
+          
+      </section>
+    </main>
+  </div>
+
+  <div id="footerWrapper">
+    <footer>
+      <p class="legal">&copy;<span id="year"></span> &bull; Taz Wilcock</p>
+    </footer>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>

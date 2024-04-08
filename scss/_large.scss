@@ -1,0 +1,10 @@
+header,
+main,
+footer {
+  max-width: 70rem;
+  margin: auto;
+}
+
+.grid-container {
+  grid-template-columns: 1fr 1fr 1fr;
+}

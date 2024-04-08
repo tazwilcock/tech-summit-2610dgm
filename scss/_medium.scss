@@ -1,0 +1,10 @@
+header {
+  img {
+    height: 90px;
+  }
+}
+
+.grid-container {
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
